@@ -1,4 +1,5 @@
 import arrays.ArrayBasics;
+import arrays.LargestElement;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +9,9 @@ public class Main {
 
         // Run Array Demo
         ArrayBasics.demo();
+
+        // Problem 1
+        LargestElement.demo();
 
         System.out.println("\nDone.");
     }
