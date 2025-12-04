@@ -4,22 +4,27 @@ This repository contains implementations of various Data Structures and Algorith
 
 ## Structure
 
-The repository is organized by topics:
+The repository is organized by packages (folders):
 
-- **Arrays**
-- **Strings**
-- **Linked Lists**
-- **Stacks & Queues**
-- **Trees**
-- **Graphs**
-- **Sorting & Searching**
-- **Dynamic Programming**
+- `src/arrays`
+- `src/strings`
+- `src/linkedlists`
+- `src/stacksqueues`
+- `src/trees`
+- `src/graphs`
+- `src/sortingsearching`
+- `src/dynamicprogramming`
 
 ## How to Run
 
-You can compile and run the Java files using the command line or any IDE like IntelliJ IDEA, Eclipse, or VS Code.
+You can compile and run the Java files using the command line.
 
+**Compile:**
 ```bash
-javac path/to/YourFile.java
-java path/to/YourFile
+javac src/Main.java src/arrays/*.java
+```
+
+**Run:**
+```bash
+java -cp src Main
 ```
