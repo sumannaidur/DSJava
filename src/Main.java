@@ -2,6 +2,7 @@ import arrays.ArrayBasics;
 import arrays.LargestElement;
 import arrays.SecondLargestElement;
 import arrays.MissingNumber;
+import arrays.RemoveDuplicates;
 import strings.ReverseString;
 import strings.PalindromeCheck;
 import strings.AnagramCheck;
@@ -36,6 +37,9 @@ public class Main {
 
         // Problem 7
         MissingNumber.demo();
+
+        // Problem 8
+        RemoveDuplicates.demo();
 
         System.out.println("\nDone.");
     }
