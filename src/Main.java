@@ -1,6 +1,7 @@
 import arrays.ArrayBasics;
 import arrays.LargestElement;
 import arrays.SecondLargestElement;
+import arrays.MissingNumber;
 import strings.ReverseString;
 import strings.PalindromeCheck;
 import strings.AnagramCheck;
@@ -32,6 +33,9 @@ public class Main {
 
         // Problem 6
         VowelConsonantCount.demo();
+
+        // Problem 7
+        MissingNumber.demo();
 
         System.out.println("\nDone.");
     }
