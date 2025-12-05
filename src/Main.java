@@ -1,5 +1,6 @@
 import arrays.ArrayBasics;
 import arrays.LargestElement;
+import arrays.SecondLargestElement;
 import strings.ReverseString;
 import strings.PalindromeCheck;
 
@@ -20,6 +21,9 @@ public class Main {
 
         // Problem 3
         PalindromeCheck.demo();
+
+        // Problem 4
+        SecondLargestElement.demo();
 
         System.out.println("\nDone.");
     }
