@@ -4,6 +4,7 @@ import arrays.SecondLargestElement;
 import strings.ReverseString;
 import strings.PalindromeCheck;
 import strings.AnagramCheck;
+import strings.VowelConsonantCount;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,6 +29,9 @@ public class Main {
 
         // Problem 5
         AnagramCheck.demo();
+
+        // Problem 6
+        VowelConsonantCount.demo();
 
         System.out.println("\nDone.");
     }
