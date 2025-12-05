@@ -1,5 +1,6 @@
 import arrays.ArrayBasics;
 import arrays.LargestElement;
+import strings.ReverseString;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,9 @@ public class Main {
 
         // Problem 1
         LargestElement.demo();
+
+        // Problem 2
+        ReverseString.demo();
 
         System.out.println("\nDone.");
     }
