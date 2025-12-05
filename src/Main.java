@@ -3,6 +3,7 @@ import arrays.LargestElement;
 import arrays.SecondLargestElement;
 import strings.ReverseString;
 import strings.PalindromeCheck;
+import strings.AnagramCheck;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +25,9 @@ public class Main {
 
         // Problem 4
         SecondLargestElement.demo();
+
+        // Problem 5
+        AnagramCheck.demo();
 
         System.out.println("\nDone.");
     }
