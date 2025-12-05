@@ -1,6 +1,7 @@
 import arrays.ArrayBasics;
 import arrays.LargestElement;
 import strings.ReverseString;
+import strings.PalindromeCheck;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +17,9 @@ public class Main {
 
         // Problem 2
         ReverseString.demo();
+
+        // Problem 3
+        PalindromeCheck.demo();
 
         System.out.println("\nDone.");
     }
