@@ -20,12 +20,8 @@ public class ReverseArray {
         while (left < right) {
             // Swap elements at left and right indices
             int temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
-
-            // Move pointers
-            left++;
-            right--;
+            arr[left++] = arr[right];
+            arr[right--] = temp;
         }
     }
 
