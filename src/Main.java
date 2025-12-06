@@ -3,6 +3,7 @@ import arrays.LargestElement;
 import arrays.SecondLargestElement;
 import arrays.MissingNumber;
 import arrays.RemoveDuplicates;
+import arrays.ReverseArray;
 import strings.ReverseString;
 import strings.PalindromeCheck;
 import strings.AnagramCheck;
@@ -40,6 +41,9 @@ public class Main {
 
         // Problem 8
         RemoveDuplicates.demo();
+
+        // Problem 9
+        ReverseArray.demo();
 
         System.out.println("\nDone.");
     }
