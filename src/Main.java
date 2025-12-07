@@ -6,6 +6,7 @@ import arrays.RemoveDuplicates;
 import arrays.ReverseArray;
 import arrays.MoveZeros;
 import arrays.EvenOddCount;
+import arrays.FirstOccurrence;
 import strings.ReverseString;
 import strings.PalindromeCheck;
 import strings.AnagramCheck;
@@ -52,6 +53,9 @@ public class Main {
 
         // Problem 11
         EvenOddCount.demo();
+
+        // Problem 12
+        arrays.FirstOccurrence.demo();
 
         System.out.println("\nDone.");
     }
