@@ -13,6 +13,11 @@ import strings.AnagramCheck;
 import strings.VowelConsonantCount;
 import strings.RotationCheck;
 import strings.RemoveWhitespace;
+import sortingsearching.LinearSearch;
+import sortingsearching.BinarySearch;
+import sortingsearching.FindFloor;
+import sortingsearching.BubbleSort;
+import arrays.CheckSorted;
 
 public class Main {
     public static void main(String[] args) {
@@ -64,6 +69,21 @@ public class Main {
 
         // Problem 14
         RemoveWhitespace.demo();
+
+        // Problem 15
+        LinearSearch.demo();
+
+        // Problem 16
+        BinarySearch.demo();
+
+        // Problem 17
+        CheckSorted.demo();
+
+        // Problem 18
+        FindFloor.demo();
+
+        // Problem 19
+        BubbleSort.demo();
 
         System.out.println("\nDone.");
     }
