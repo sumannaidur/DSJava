@@ -12,6 +12,7 @@ import strings.PalindromeCheck;
 import strings.AnagramCheck;
 import strings.VowelConsonantCount;
 import strings.RotationCheck;
+import strings.RemoveWhitespace;
 
 public class Main {
     public static void main(String[] args) {
@@ -60,6 +61,9 @@ public class Main {
 
         // Problem 13
         RotationCheck.demo();
+
+        // Problem 14
+        RemoveWhitespace.demo();
 
         System.out.println("\nDone.");
     }
