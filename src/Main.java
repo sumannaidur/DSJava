@@ -4,6 +4,7 @@ import arrays.SecondLargestElement;
 import arrays.MissingNumber;
 import arrays.RemoveDuplicates;
 import arrays.ReverseArray;
+import arrays.MoveZeros;
 import strings.ReverseString;
 import strings.PalindromeCheck;
 import strings.AnagramCheck;
@@ -44,6 +45,9 @@ public class Main {
 
         // Problem 9
         ReverseArray.demo();
+
+        // Problem 10
+        MoveZeros.demo();
 
         System.out.println("\nDone.");
     }
