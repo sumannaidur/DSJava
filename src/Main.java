@@ -5,6 +5,7 @@ import arrays.MissingNumber;
 import arrays.RemoveDuplicates;
 import arrays.ReverseArray;
 import arrays.MoveZeros;
+import arrays.EvenOddCount;
 import strings.ReverseString;
 import strings.PalindromeCheck;
 import strings.AnagramCheck;
@@ -48,6 +49,9 @@ public class Main {
 
         // Problem 10
         MoveZeros.demo();
+
+        // Problem 11
+        EvenOddCount.demo();
 
         System.out.println("\nDone.");
     }
