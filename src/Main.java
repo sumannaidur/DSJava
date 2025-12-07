@@ -11,6 +11,7 @@ import strings.ReverseString;
 import strings.PalindromeCheck;
 import strings.AnagramCheck;
 import strings.VowelConsonantCount;
+import strings.RotationCheck;
 
 public class Main {
     public static void main(String[] args) {
@@ -56,6 +57,9 @@ public class Main {
 
         // Problem 12
         arrays.FirstOccurrence.demo();
+
+        // Problem 13
+        RotationCheck.demo();
 
         System.out.println("\nDone.");
     }
