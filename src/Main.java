@@ -18,6 +18,7 @@ import sortingsearching.BinarySearch;
 import sortingsearching.FindFloor;
 import sortingsearching.BubbleSort;
 import arrays.CheckSorted;
+import arrays.TwoSumSorted;
 
 public class Main {
     public static void main(String[] args) {
@@ -84,6 +85,9 @@ public class Main {
 
         // Problem 19
         BubbleSort.demo();
+
+        // Problem 20
+        TwoSumSorted.demo();
 
         System.out.println("\nDone.");
     }
